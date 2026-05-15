@@ -317,17 +317,24 @@ body.dark textarea {
     }
 
     .sidebar a {
-        padding: 15px;
+        padding: 15px 0;
         text-align: center;
-        font-size: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .sidebar a i {
+        font-size: 20px;
     }
 
     .sidebar a:hover {
-        padding-left: 15px;
+        padding-left: 0;
     }
 
     .topbar {
         left: 60px;
+        justify-content: flex-end;
+        padding: 10px 20px;
     }
 
     .topbar-search {
